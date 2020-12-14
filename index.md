@@ -1,39 +1,53 @@
----
-layout: default
----
+## Aim of the Workshop
 
-# Overview
+To reach top-tier performance, deep learning architectures usually rely on a large number of parameters and operations, and thus require to be processed using considerable power and memory. Numerous works have proposed to tackle this problem using quantization of parameters, pruning, clustering of parameters, decompositions of convolutions or using distillation. However, most of these works aim at accelerating **only** the inference process and disregard the training phase. In practice, however, it is the learning phase that is by far the most complex. There has been recent efforts in introducing some compression on training process, however it remains challenging.
 
-| **Date** | One-day workshop on Friday, 11 December 2020 |
-| **Location** | The workshop will be held *virtually*. |
+**In this workshop, we propose to focus on reducing the complexity of the training process. Our aim is to gather researchers interested in reducing energy, time, or memory usage for faster/cheaper/greener prototyping or deployment of deep learning models.** Due to the dependence of deep learning on large computational capacities, the outcomes of the workshop could benefit all who deploy these solutions, including those who are not hardware specialists. Moreover, it would contribute to making deep learning more accessible to small businesses and small laboratories.
+
+Indeed, training complexity is of interest to many distinct communities. A first example is training on edge devices, where training can be used to specialize to data obtained online when the data cannot be transmitted back to the cloud because of constraints on privacy or communication bandwidth. Another example is accelerating training on dedicated hardware such as GPUs or TPUs.
+
+The workshop welcomes contributions that seek to reduce the cost of the training process by taking into account the details of the computing hardware (CPU, GPU, IPU, NPU, or any other custom accelerator implemented as an ASIC or on FPGA) including (but not limited to):
+
+- compression methods to reduce memory usage and/or complexity of deep learning during training,
+- hardware architectures and implementations for deep learning training,
+- energy reduction techniques for deep learning training,
+- open-source designs, implementations and code related to efficient deep-learning implementations,
+- energy models or energy-efficiency benchmarks for deep learning training implementations,
+- applications of low-energy deep learning training,
+- equilibrium-propagation-based techniques and/or their hardware implementations,
+- few-shot/few-labels and semi-supervised learning methods for training on chip. 
 
 
-# How to participate
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-- Visit the [Gather.Town instance of the workshop](https://neurips.gather.town/app/EfqcVjt6CmhKKeu0/TDA%20and%20Beyond%20@%20NeurIPS)
-  to chat with attendees and poster presenters. Check the [schedule](/schedule) to ensure that an author is available to answer your questions *live*.
-- Join our Slack workspace [TDA in ML](https://tda-in-ml.slack.com/join/shared_invite/enQtOTIyMTIyNTYxMTM2LTA2YmQyZjVjNjgxZWYzMDUyODY5MjlhMGE3ZTI1MzE4NjI2OTY0MmUyMmQ3NGE0MTNmMzNiMTViMjM2MzE4OTc#/) for more information about the workshop.  Use the channel `#neurips2020_workshop` to communicate with the attendees, panellists, and
-  organisers.
+### Markdown
 
-# Background
- 
-The last decade saw an enormous boost in the field of computational
-topology: methods and concepts from algebraic and differential topology,
-formerly confined to the realm of pure mathematics, have demonstrated
-their utility in numerous areas such as computational biology,
-personalised medicine, materials science, and time-dependent data
-analysis, to name a few.
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-The newly-emerging domain comprising topology-based techniques is often
-referred to as topological data analysis (TDA). Next to their
-applications in the aforementioned areas, TDA methods have also proven
-to be effective in supporting, enhancing, and augmenting both classical
-machine learning and deep learning models.
+```markdown
+Syntax highlighted code block
 
-We believe that it is time to bring together theorists and practitioners
-in a creative environment to discuss the goals beyond the
-currently-known bounds of TDA. We want to start a conversation between
-experts, non-experts, and users of TDA methods to debate the next steps
-the field should take. We also want to disseminate methods to a broader
-audience and demonstrate how easy the integration of topological
-concepts into existing methods can be.
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eghouti/Hardware-Aware-Efficient-Training/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
