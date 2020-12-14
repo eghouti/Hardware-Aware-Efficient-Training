@@ -2,3 +2,7 @@ github:
   is_project_page: false
 theme: jekyll-theme-cayman
 title: Hadware Aware Efficent Training
+description: Workshop at ICLR 2021
+
+navigation:
+  Home: "/"
