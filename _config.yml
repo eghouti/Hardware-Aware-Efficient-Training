@@ -12,5 +12,4 @@ kramdown:
   parse_span_html: true
   parse_block_html: true
   
-plugins:
--jekyll-theme-cayman
+plugins: jekyll-theme-cayman
