@@ -1,3 +1,4 @@
+theme: jekyll-theme-cayman
 title:       Topological Data Analysis and Beyond
 description: Workshop at NeurIPS 2020
 
@@ -19,7 +20,5 @@ kramdown:
   parse_span_html: true
   parse_block_html: true
 
-plugins:
-  - jekyll-seo-tag
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
