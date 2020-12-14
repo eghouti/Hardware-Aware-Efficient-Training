@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Organisers
 
 |<img src="/orginisers_pictures/Ghouthi_boukli.jpg" alt="Ghouthi Boukli Hacene" width="225"/>|<img src="/orginisers_pictures/Yoshua_bengio.jpeg" alt="Yoshua Bengio" width="225"/>|<img src="/orginisers_pictures/vincent gripon.png" alt="Vincent Gripon" width="225"/>|
